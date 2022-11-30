@@ -2,8 +2,6 @@ import React from "react";
 import Image from "next/image";
 import ilustracao from '../../pages/assets/ilustration1.svg';
 
-
-
 function Main() {
   return (
     <>
