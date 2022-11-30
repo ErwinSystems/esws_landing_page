@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Contact from "../components/Contact ";
+import Contact from "../components/Contact";
 import Final from "../components/Final";
 import Footer from "../components/Footer";
 import Nav from "../components/Header/nav/Navbar";

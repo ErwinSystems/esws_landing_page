@@ -1,4 +1,7 @@
 import React from "react";
+import Image from "next/image";
+import ilustracao from '../../pages/assets/solution.svg';
+
 
 function Solutions() {
   return (
@@ -22,7 +25,7 @@ function Solutions() {
         </div>
       </aside>
       <div className="hidden md:block">
-        <img src="https://i.imgur.com/8ZAJXsw.png" alt="img" />
+        <Image src={ilustracao} alt="img" />
       </div>
     </div>
   );

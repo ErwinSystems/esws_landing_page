@@ -1,4 +1,8 @@
 import React from "react";
+import Image from "next/image";
+import ilustracao from '../../pages/assets/ilustration1.svg';
+
+
 
 function Main() {
   return (
@@ -28,8 +32,8 @@ function Main() {
               </ul>
             </div>
           </aside>
-          <img
-            src="https://i.imgur.com/94zOIhg.jpg"
+          <Image
+            src={ilustracao}
             alt="icon"
             className="hidden md:block w-[34rem] h-[25rem]"
           />
